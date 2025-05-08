@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лучшие игроки CS:GO за всю историю</title>
+    <script src="script.js"> </script>
+    <link rel="icon" type="image/jpg" href="country/logo.jpg" sizes="32x32">
+   
+    <style>
+        @font-face {
+            font-family: 'Pastry';
+            src: url("fonts/ofont.ru_Pastry Chef.ttf");
+        }
+    
+        body {
+            background-color: hsl(218, 96%, 28%);
+            color: azure;
+            font-family: 'Pastry', sans-serif;
+            font-size: 23px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    
+        h1, h2, h3 {
+            color: #FFD700;
+            text-align: center;
+            margin-top: 30px;
+        }
+    
+        h1 {
+            font-size: 48px; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+    
+        header {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+    
+        header div {
+            display: inline-block;
+            margin: 0 20px;
+            font-size: 28px;
+        }
+    
+        p {
+            text-align: justify;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+    
+        .players-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+        }
+    
+        .player-card {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .player-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            border: 5px solid azure;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+    
+        figcaption {
+            font-size: 24px; 
+            margin-top: 10px;
+            color: #FFD700;
+            width: 100%;
+        }
+    
+        .rank-1 { order: 1; }
+        .rank-2-3 { order: 2; }
+        .rank-4-6 { order: 3; }
+        .rank-7-10 { order: 4; }
+    
+        @media (max-width: 900px) {
+            .players-container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+    
+            .player-card {
+                width: calc(50% - 40px);
+                min-width: 250px;
+                max-width: 300px;
+                margin: 10px;
+            }
+    
+            .player-image {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 1/1;
+                max-width: 200px;
+            }
+    
+            h1 {
+                font-size: 32px; 
+            }
+        }
+    
+        @media (max-width: 480px) {
+            body {
+                font-size: 16px;
+                padding: 5px;
+            }
+    
+            h1 {
+                font-size: 24px; 
+            }
+    
+            header div {
+                font-size: 19px; 
+            }
+    
+            .players-container {
+                gap: 15px;
+            }
+    
+            .player-card {
+                width: 100%;
+                max-width: none;
+                padding: 10px;
+            }
+    
+            .player-image {
+                width: 120px;
+                height: 120px;
+            }
+    
+            figcaption {
+                font-size: 18px; 
+            }
+        }
+    </style>
+   
+</head>
+
+<body>
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 34 34" >
+            <path fill="white" d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"/>
+        </svg>
+            <a href="general.html" style="color: white; text-decoration: none; cursor: pointer;">Главная</a>
+    </header> 
+
+    <h1>Лучшие игроки CS:GO за всю историю</h1>
+
+    <p>Counter-Strike: Global Offensive (сокр. CS:GO) — многопользовательская компьютерная игра, разработанная
+        компаниями Valve и Hidden Path Entertainment. Выпуск игры состоялся 21 августа 2012 года. Как и в остальных
+        играх серии, игроки делятся на две команды: террористов и подразделений специального назначения.</p>
+
+    <p>CS:GO является одной из самых популярных киберспортивных дисциплин. Самыми крупными и престижными турнирами
+        считаются турниры серии Major с призовыми фондами до $2,000,000. На этой странице представлены величайшие
+        игроки, оставившие свой след в истории игры.</p>
+
+    <div class="players-container">
+        <div class="player-card rank-1">
+            <figure>
+
+                <img class="player-image" src="players/s1mple.webp" alt="s1mple" usemap="#pic1">
+                <figcaption>1 место - s1mple</figcaption>
+                <map name="pic1">
+                    <area shape="default" href="s1mple.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-2-3">
+            <figure>
+                <img class="player-image" src="players/ZywoO.webp" alt="ZywoO" usemap="#pic2">
+                <figcaption>2 место - ZywoO</figcaption>
+                <map name="pic2">
+                    <area shape="default" href="zywoo.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-2-3">
+            <figure>
+                <img class="player-image" src="players/Nico.webp" alt="Nico" usemap="#pic3">
+                <figcaption>3 место - Nico</figcaption>
+                <map name="pic3">
+                    <area shape="default" href="Nico.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-4-6">
+            <figure>
+                <img class="player-image" src="players/Dev1ce.webp" alt="Dev1ce" usemap="#pic4">
+                <figcaption>4 место - Dev1ce</figcaption>
+                <map name="pic4">
+                    <area shape="default" href="dev1ce.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-4-6">
+            <figure>
+                <img class="player-image" src="players/cold.webp" alt="Coldzera" usemap="#pic5">
+                <figcaption>5 место - Coldzera</figcaption>
+                <map name="pic5">
+                    <area shape="default" href="cold.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-4-6">
+            <figure>
+                <img class="player-image" src="players/first.webp" alt="GEt_Right" usemap="#pic6">
+                <figcaption>6 место - GEt_Right</figcaption>
+                <map name="pic6">
+                    <area shape="default" href="get_right.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-7-10">
+            <figure>
+                <img class="player-image" src="players/dupreeh.webp" alt="dupreeh" usemap="#pic7">
+                <figcaption>7 место - dupreeh</figcaption>
+                <map name="pic7">
+                    <area shape="default" href="dupreeh.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-7-10">
+            <figure>
+                <img class="player-image" src="players/papa.webp" alt="Fallen" usemap="#pic8">
+                <figcaption>8 место - Fallen</figcaption>
+                <map name="pic8">
+                    <area shape="default" href="fallen.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-7-10">
+            <figure>
+                <img class="player-image" src="players/elic.webp" alt="electronic" href="elic.html" usemap="#pic9">
+                <figcaption>9 место - electronic</figcaption>
+                <map name="pic9">
+                    <area shape="default" href="elic.html">
+                </map>
+            </figure>
+        </div>
+
+        <div class="player-card rank-7-10">
+            <figure>
+                <img class="player-image" src="players/olof.webp" alt="olofmeister" usemap="#pic10">
+                <figcaption>10 место - olofmeister</figcaption>
+                <map name="pic10">
+                    <area shape="default" href="olof.html">
+                </map>
+            </figure>
+        </div>
+    </div>
+</body>
+
+</html>
